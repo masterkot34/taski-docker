@@ -31,4 +31,8 @@ jobs:
     - name: Test with flake8
       # Вызываем flake8 и указываем ему,
       # что нужно проверить файлы только в папке backend/
+<<<<<<< HEAD
       run: python -m flake8 backend/
+=======
+      run: python -m flake8 backend/
+>>>>>>> 62e32ab79d6c5ab3c83bee64be08981c267971c8
